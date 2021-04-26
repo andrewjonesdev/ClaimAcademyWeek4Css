@@ -1,0 +1,41 @@
+
+@font-face{
+    font-family: PocketMonk;
+    src: url(PocketMonk-15ze.ttf);
+}
+
+@media screen and (max-width: 1023px){
+    body{
+        background-image: url("mobileBackground.png");
+        font-family: PocketMonk;
+        color: white;
+    }
+    h1{
+        color: green;
+    }
+    #big{
+        font-size: 100px;
+    }
+    .outline{
+        outline-style: dotted;
+        outline-color: aqua;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        background-image: url("fullscreenBackground.jpg");
+        font-family: PocketMonk;
+        color: white;
+    }
+    h1{
+        color: red;
+    }
+    #big{
+        font-size: 300px;
+    }
+    .outline{
+        outline-style: solid;
+        outline-color: aqua;
+    }
+}
